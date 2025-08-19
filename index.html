@@ -3,14 +3,16 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Koh Samui Resort Homes • Lifestyle + Income</title>
-  <meta name="description" content="Explore resort villas and branded residences in Koh Samui. Enjoy five-star amenities with rental income potential. Get matched to vetted opportunities." />
+  <title>Koh Samui Resort Homes • Branded Villas & Lifestyle Income</title>
+  <meta name="description" content="Own a resort villa or branded residence in Koh Samui. Five-star amenities, professional management, and private rental programs." />
   <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://kohsamuiresort.homes/" />
+  <link rel="preconnect" href="https://kohsamui.investments">
+  <link rel="dns-prefetch" href="https://kohsamui.investments">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Koh Samui Resort Homes • Lifestyle + Income" />
-  <meta property="og:description" content="Resort-style villas and residences in Koh Samui — personal use + rental returns. Learn more and get matched privately." />
+  <meta property="og:title" content="Koh Samui Resort Homes • Branded Villas & Lifestyle Income" />
+  <meta property="og:description" content="Resort-style villas and residences in Koh Samui — own your retreat, earn rental income, and enjoy five-star amenities." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://images.unsplash.com/photo-1543489822-c49534f3271f?q=80&w=1600&auto=format&fit=crop" />
   <meta property="og:url" content="https://kohsamuiresort.homes" />
@@ -62,20 +64,46 @@
     <div class="badge">KohSamuiResort<span style="opacity:.7">.homes</span></div>
 
     <div class="card" role="region" aria-label="Koh Samui resort homes intro">
-      <h1>Resort Homes in Koh Samui</h1>
-      <p>Discover resort-style villas and branded residences with concierge services, on-site dining, fitness & spa, and professional rental programs.</p>
-      <p style="opacity:.9">Tell us your budget and timeline — we’ll match you privately with vetted opportunities across Samui’s prime beachfront and hillside locations.</p>
+      <h1>Resort Villas & Residences in Koh Samui</h1>
+      <p>Own a branded villa with concierge services, dining, spa, and rental management. Enjoy your home privately and earn returns when you’re away.</p>
+      <p style="opacity:.9">Share your budget and timeline — we’ll connect you discreetly with vetted resort communities across Samui’s prime beachfront and hillside locations.</p>
+
       <a class="cta" href="https://kohsamui.investments/?utm_source=kohsamuiresort.homes&utm_medium=referral&utm_campaign=cta">
-        Learn more &nbsp;→
+        Explore resort homes &nbsp;→
       </a>
+      <p style="font-size:13px;opacity:.85;margin-top:10px">Private intake • No spam • Expert-reviewed opportunities</p>
+
+      <p style="margin-top:10px">
+        <a class="cta" style="background:transparent;border-color:rgba(255,255,255,.35)"
+           href="https://kohsamui.investments/guide.html?utm_source=kohsamuiresort.homes&utm_medium=referral&utm_campaign=soft">
+          Preview resort buyer’s guide &nbsp;→
+        </a>
+      </p>
+
+      <script>
+        document.addEventListener('DOMContentLoaded', function(){
+          const cta = document.querySelector('.cta');
+          if(!cta) return;
+          cta.addEventListener('click', function(){
+            try {
+              gtag('event', 'cta_click', {
+                event_category: 'engagement',
+                event_label: 'kohsamuiresort.homes_primary',
+                value: 1
+              });
+            } catch(e){}
+          });
+        });
+      </script>
     </div>
 
     <div class="foot">
-  Private intake • No spam • HTTPS secure
-  <div style="font-size:11px;opacity:.6;margin-top:4px">
-    <a href="/faq" style="color:#aaa;text-decoration:none">FAQ</a> • 
-    <a href="/guide" style="color:#aaa;text-decoration:none">Guide</a>
+      Private intake • No spam • HTTPS secure
+      <div style="font-size:11px;opacity:.6;margin-top:4px">
+        <a href="/faq" style="color:#aaa;text-decoration:none">FAQ</a> • 
+        <a href="/guide" style="color:#aaa;text-decoration:none">Guide</a>
+      </div>
+    </div>
   </div>
-</div>
 </body>
 </html>
